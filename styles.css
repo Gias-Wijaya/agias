@@ -1,0 +1,94 @@
+/* Reset dasar */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f1faee;
+    color: #1d3557;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #a8dadc;
+    color: #1d3557;
+    padding: 60px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.hero-section .btn {
+    background-color: #457b9d;
+    border-color: #457b9d;
+    color: white;
+}
+
+.hero-section .btn:hover {
+    background-color: #1d3557;
+}
+
+/* About Section */
+.about-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+#skills .progress-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#skills .progress-bar {
+    background-color: #457b9d;
+}
+
+#skills {
+    padding: 40px 20px;
+}
+
+/* Portfolio Section */
+.portfolio-item {
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Testimonials Section */
+blockquote {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #1d3557;
+    color: #ffffff;
+}
+
+/* Profile Photo */
+.profile-photo img {
+    max-width: 150px; /* Atur ukuran maksimal gambar */
+    height: auto; /* Tinggi otomatis untuk menjaga rasio aspek */
+}
